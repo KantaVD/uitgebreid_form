@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <title> Nieuw begin </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Neem contact op met mij
+        </h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="About.html">Over mij</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Naam:<br>
+                    <input type="text" name="naam" value="Jan de Wit">
+                </label>
+            </p>
+
+            <p>
+                <label>Mailadres:<br>
+                    <input type="email" name="email" value="j.dewit@gmail.com">
+                </label>
+            </p>
+
+            <p>
+                <label>Telefoonnummer:<br>
+                    <input type="tel" name="tel" value="123-4567890">
+                </label>
+            </p>
+
+            <p>
+                <label>Leeftijd:<br>
+                    <input type="number" name="leeftijd" value="38" min="18" max="80">
+                </label>
+            </p>
+
+            <p>
+                <label>Geboortedatum:<br>
+                    <input type="date" name="geb.dat" min="1950-01-01" max="2010-12-31" value="1983-04-08">
+                </label>
+            </p>
+
+            <p>
+                <label>Gender:<br>
+                    <label>Man<input type="radio" name="gender"></label>
+                    <label>Vrouw<input type="radio" name="gender"></label>
+                    <label>Anders<input type="radio" name="gender"></label>
+                </label>
+            </p>
+
+            <p>
+                <label>Favoriete cuisine:<br>
+                    <label>Franse<input type="checkbox" name="fav.cuis."></label>
+                    <label>Italiaanse<input type="checkbox" name="fav.cuis."></label>
+                    <label>Spaanse<input type="checkbox" name="fav.cuis."></label>
+                    <label>Arabische<input type="checkbox" name="fav.cuis."></label>
+                </label>
+            </p>
+
+            <p>
+                <label>Favouriete schortkleur:<br>
+                    <input type="color" name="schortkleur">
+                </label>
+            </p>
+
+            <p>
+                <label>Biografie:<br>
+                    <textarea name="bio"></textarea>
+                </label>
+            </p>
+
+            <p>
+                <label>Upload jouw laatste recept<br>
+                    <input type="file" name="laatste recept">
+                </label>
+            </p>
+
+            <p>
+                <label>Jouw website met recepten<br>
+                    <input type="url" name="website">
+                </label>
+            </p>
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="Stuur">
+        </form>
+
+    </main>
+    <footer>
+        Copyright Kantaatje 2021
+    </footer>
+
+</body>
+
+</html>

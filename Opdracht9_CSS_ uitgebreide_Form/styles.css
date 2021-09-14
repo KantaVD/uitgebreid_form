@@ -1,0 +1,108 @@
+body {
+    color: #8b0505;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    background-color: cyan;
+    }
+
+header {
+    width: 90%;
+    background-color: cornflowerblue;
+    margin: 0px auto;
+    border-top: 5px coral solid;
+    border-right: 5px coral dotted;
+    border-bottom: 5px coral double;
+    border-left: 5px coral dashed;
+    
+}
+
+nav li {
+    display:inline;
+    padding: 3px;
+    margin: 5px;
+    
+    background-color: rgb(198, 198, 236);
+}
+
+main {
+    width: 80%;
+    margin:  0px auto;
+    border:2px rgb(255, 80, 217) solid;
+    padding: 5px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: darkorchid;
+    text-align: right;
+    border:2px rgb(80, 255, 118) solid;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h1 + p {
+    margin: 0;
+    text-align: center;
+    font-size: 1,2em;
+    font-weight: 500;
+    color: crimson;
+    padding: 0;
+}
+
+p {
+    font-size: 15px;
+
+}
+
+figure {
+    width: 80%;
+    }
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+figcaption {
+    color: red;
+}
+
+.black-border {
+    width: 300px;
+    margin: 0px auto;
+    border:darkorchid 15px ridge;
+    border-radius: 35px;
+    
+}
+
+#green-background {
+    background-color: green;
+    color: wheat;
+    border: green 10px inset;
+    border-radius: 10px;
+    padding:30px;
+    margin-left: 0px;
+    width: 300px;
+}
+
+@media (min-width: 1024px){
+    body {
+        background-color: coral;
+        color: green ;
+        font-size: 75%;
+        line-height: 3em;
+    }
+    main {
+        margin-bottom: 200px;
+    }
+    .black-border {
+        width: 300px;
+        margin: 20px;
+        border:darkorchid 15px ridge;
+        border-radius: 35px;
+        }
+}
